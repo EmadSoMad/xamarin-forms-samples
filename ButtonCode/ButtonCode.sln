@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonCode", "ButtonCode\ButtonCode\ButtonCode.csproj", "{CF84A6C7-10BF-48C2-9733-D78E466B36C9}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPhone81", "ButtonCode\ButtonCode.WinPhone81\WinPhone81.csproj", "{86C3F228-2069-4CD2-8DAE-51CAE19093BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonCode.UWP", "ButtonCode\ButtonCode.UWP\ButtonCode.UWP.csproj", "{E8373014-A4AC-4EB9-91AD-3C7FCA27FF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonCode.GTK", "ButtonCode\ButtonCode.GTK\ButtonCode.GTK.csproj", "{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -503,6 +505,62 @@ Global
 		{E8373014-A4AC-4EB9-91AD-3C7FCA27FF83}.Release|x86.ActiveCfg = Release|x86
 		{E8373014-A4AC-4EB9-91AD-3C7FCA27FF83}.Release|x86.Build.0 = Release|x86
 		{E8373014-A4AC-4EB9-91AD-3C7FCA27FF83}.Release|x86.Deploy.0 = Release|x86
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|ARM.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|x64.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.AppStore|x86.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|x64.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|ARM.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|iPhone.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|x64.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|x64.Build.0 = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -514,6 +572,7 @@ Global
 		{0C113F17-7D27-42E0-ACD7-8F021F8D0C1C} = {554F337D-54C1-44EB-A0E2-C0A80AC06087}
 		{86C3F228-2069-4CD2-8DAE-51CAE19093BD} = {554F337D-54C1-44EB-A0E2-C0A80AC06087}
 		{E8373014-A4AC-4EB9-91AD-3C7FCA27FF83} = {554F337D-54C1-44EB-A0E2-C0A80AC06087}
+		{5B9B749A-BC59-4B06-970E-8D3ABA90F7A3} = {554F337D-54C1-44EB-A0E2-C0A80AC06087}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ButtonCode\ButtonCode.iOS\ButtonCode.iOS.csproj
