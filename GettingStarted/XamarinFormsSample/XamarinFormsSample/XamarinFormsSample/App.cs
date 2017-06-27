@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-
 using Xamarin.Forms;
-
 using XamarinFormsSample.Model;
 using XamarinFormsSample.Views;
 
