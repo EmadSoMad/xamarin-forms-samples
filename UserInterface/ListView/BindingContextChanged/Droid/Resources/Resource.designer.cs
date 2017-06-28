@@ -26,7 +26,6 @@ namespace BindingContextChanged.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::BindingContextChanged.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Attribute

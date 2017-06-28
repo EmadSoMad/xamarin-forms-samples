@@ -26,7 +26,6 @@ namespace LayoutSamples.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::LayoutSamples.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Attribute
