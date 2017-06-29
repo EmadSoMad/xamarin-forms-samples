@@ -14,11 +14,9 @@ namespace UsingResxLocalization
         readonly CultureInfo ci = null;
 		const string ResourceId = "UsingResxLocalization.Resx.AppResources";
 
-		public TranslateExtension() {
-            if (Device.OS == TargetPlatform.iOS || Device.OS == TargetPlatform.Android)
-            {
-                ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-            }
+		public TranslateExtension()
+        {
+            ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
 		}
 
 		public string Text { get; set; }

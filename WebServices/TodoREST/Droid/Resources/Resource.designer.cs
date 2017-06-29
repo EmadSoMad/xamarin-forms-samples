@@ -26,7 +26,6 @@ namespace TodoREST.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::TodoREST.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Attribute

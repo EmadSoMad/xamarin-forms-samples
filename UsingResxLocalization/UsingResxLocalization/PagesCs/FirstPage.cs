@@ -26,10 +26,16 @@ namespace UsingResxLocalization
 			myButton.Text = AppResources.AddButton;
 
 			var flag = new Image();
-			flag.Source = ImageSource.FromFile(Device.OnPlatform("flag.png", "flag.png", "Assets/Images/flag.png"));
+            flag.Source = ImageSource.FromFile(Device.OnPlatform("flag.png", "flag.png", "Assets/Images/flag.png"));
 
-			// button shows an alert, also translated
-			myButton.Clicked += async (sender, e) =>
+            if (Device.OS == TargetPlatform.Other)
+            {
+                var ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+                flag.Source = ImageSource.FromFile(string.Format("Images/{0}/flag.png", ci.TwoLetterISOLanguageName));
+            }
+
+            // button shows an alert, also translated
+            myButton.Clicked += async (sender, e) =>
 			{
 				var message = AppResources.AddMessageN;
 				if (myPicker.SelectedIndex <= 0)
