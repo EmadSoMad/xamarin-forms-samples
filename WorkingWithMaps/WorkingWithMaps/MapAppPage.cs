@@ -28,8 +28,10 @@ namespace WorkingWithMaps
 
 				} else if (Device.OS == TargetPlatform.Windows || Device.OS == TargetPlatform.WinPhone) {
                     Device.OpenUri(new Uri("bingmaps:?where=394 Pacific Ave San Francisco CA"));
-				}
-			};
+                } else if (Device.OS == TargetPlatform.Other) {
+                    Device.OpenUri(new Uri("bingmaps:?where=394 Pacific Ave San Francisco CA"));
+                }
+            };
 
 			var openDirections = new Button {
 				Text = "Get directions using built-in Maps app"
@@ -46,8 +48,11 @@ namespace WorkingWithMaps
 
 				} else if (Device.OS == TargetPlatform.Windows) {
                     Device.OpenUri(new Uri("bingmaps:?rtp=adr.394 Pacific Ave San Francisco CA~adr.One Microsoft Way Redmond WA 98052"));
+                } else if (Device.OS == TargetPlatform.Other)
+                {
+                    Device.OpenUri(new Uri("bingmaps:?where=394 Pacific Ave San Francisco CA"));
                 }
-			};
+            };
 			Content = new StackLayout{
 				Padding = new Thickness (5, 20, 5, 0),
 				HorizontalOptions = LayoutOptions.Fill,
