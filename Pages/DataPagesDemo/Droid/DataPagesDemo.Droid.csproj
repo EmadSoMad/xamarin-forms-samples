@@ -101,12 +101,12 @@
       <HintPath>..\packages\Xamarin.Forms.3.0.0\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Pages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Xamarin.Forms.Pages.2.3.4.224\lib\MonoAndroid10\Xamarin.Forms.Pages.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Pages, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.Pages.3.0.0\lib\MonoAndroid10\Xamarin.Forms.Pages.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Pages.Azure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Xamarin.Forms.Pages.Azure.2.3.4.224\lib\MonoAndroid10\Xamarin.Forms.Pages.Azure.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Pages.Azure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.Pages.Azure.3.0.0\lib\MonoAndroid10\Xamarin.Forms.Pages.Azure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
