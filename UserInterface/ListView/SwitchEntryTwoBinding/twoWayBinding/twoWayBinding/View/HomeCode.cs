@@ -13,6 +13,12 @@ namespace twoWayBinding
 			listView.ItemsSource = HomeViewModel.lights;
 			listView.ItemSelected += listSelection;
 			listView.ItemTemplate = new DataTemplate (typeof(LightViewCell));
+
+            if(Device.RuntimePlatform == Device.GTK)
+            {
+                listView.HasUnevenRows = true;
+            }
+
 			ToolbarItem editItem = new ToolbarItem (){ Text = "Switch" };
 			ToolbarItems.Add (editItem);
 			editItem.Clicked += OnEditTap;

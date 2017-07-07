@@ -15,7 +15,7 @@ namespace MasterDetailPageNavigation
 
 			masterPage.ListView.ItemSelected += OnItemSelected;
 
-			if (Device.OS == TargetPlatform.Windows) {
+			if (Device.OS == TargetPlatform.Windows || Device.OS == TargetPlatform.Other) {
 				Master.Icon = "swap.png";
 			}
 		}
