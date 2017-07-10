@@ -13,7 +13,7 @@ namespace ClassHierarchy.GTK
             var app = new App();
             var window = new FormsWindow();
             window.LoadApplication(app);
-            window.SetApplicationTitle("WorkingWithBehaviors");
+            window.SetApplicationTitle("ClassHierarchy");
             window.Show();
             Gtk.Application.Run();
         }
