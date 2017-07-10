@@ -9,8 +9,7 @@ namespace TodoAzure.GTK
         {
             Gtk.Application.Init();
             Forms.Init();
-            //Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
-
+   
             var app = new App();
             var window = new FormsWindow();
             window.LoadApplication(app);
