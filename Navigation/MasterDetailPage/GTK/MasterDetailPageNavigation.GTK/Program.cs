@@ -9,7 +9,6 @@ namespace MasterDetailPageNavigation.GTK
         {
             Gtk.Application.Init();
             Forms.Init();
-
             var app = new App();
             var window = new FormsWindow();
             window.LoadApplication(app);
