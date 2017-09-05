@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using Xamarin.Forms.Maps.GTK;
 using Xamarin.Forms.Platform.GTK;
 
 namespace FormsGallery.GTK
@@ -9,7 +10,7 @@ namespace FormsGallery.GTK
         {
             Gtk.Application.Init();
             Forms.Init();
-
+            FormsMaps.Init(string.Empty);
             var app = new App();
             var window = new FormsWindow();
             window.LoadApplication(app);

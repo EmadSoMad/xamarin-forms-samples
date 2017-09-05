@@ -51,6 +51,14 @@
       <HintPath>..\..\packages\Xamarin.Forms.3.0.0\lib\net45\glib-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="GMap.NET.Core, Version=1.7.0.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.Maps.3.0.0\lib\net45\GMap.NET.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GMap.NET.GTK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.Maps.3.0.0\lib\net45\GMap.NET.GTK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="gtk-dotnet, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.3.0.0\lib\net45\gtk-dotnet.dll</HintPath>
       <Private>False</Private>
@@ -81,6 +89,14 @@
     <Reference Include="System.Xml" />
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.3.0.0\lib\net45\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.Maps.3.0.0\lib\net45\Xamarin.Forms.Maps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps.GTK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.Maps.3.0.0\lib\net45\Xamarin.Forms.Maps.GTK.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
